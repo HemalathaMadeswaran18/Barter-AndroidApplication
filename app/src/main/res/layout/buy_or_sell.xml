@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photo_1601925165391_e5d6552a4e20">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="176dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:fontFamily="@font/audiowide"
+            android:text="Would you like to"
+            android:textAlignment="center"
+
+            android:textColor="#FF9800"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buy_btn"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:fontFamily="sans-serif-black"
+            android:text="BUY"
+            android:textColor="@android:color/holo_orange_dark"
+            app:backgroundTint="@color/black" />
+
+        <Button
+            android:id="@+id/sell_btn"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:fontFamily="sans-serif-black"
+            android:text="SELL"
+            android:textColor="@android:color/holo_orange_dark"
+            app:backgroundTint="@color/black" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
